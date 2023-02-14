@@ -4,44 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/ifad2"
     android:orientation="vertical"
-    android:padding="20dp"
-    >
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:orientation="horizontal"
-    android:background="#25FFFFFF"
-    android:weightSum="90"
+    tools:context=".MainActivity"
+    android:background="#B9FF9800"
+    android:padding="10dp"
     >
 
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="30"
-        android:text="Button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/beauty_of_bangladesh"
+        android:textAllCaps="false"
+        android:textColor="#2196F3"
+        android:textSize="35sp"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/ifad3"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bangladesh is bordered by the Indian states of West Bengal to the west and north, Assam to the north, Meghalaya to the north and northeast, and Tripura and Mizoram to the east. To the southeast, it shares a boundary with Myanmar (Burma). The southern part of Bangladesh opens into the Bay of Bengal."
+        android:textColor="#4CAF50"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+
+
+        />
+
+
+
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="30"
-        android:text="this is log button" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sing in button"
+        android:textSize="25dp"
+        android:background="#000000"
+        android:textColor="#22FF98"
+        />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="30"
-        android:text="Button" />
-</LinearLayout>
 
-    
 
-</LinearLayout>
+    </LinearLayout>
 
